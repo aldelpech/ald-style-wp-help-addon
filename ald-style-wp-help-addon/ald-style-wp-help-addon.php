@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: wp-help Style add-on 
+Plugin Name: WP Help Style add-on 
 Plugin URI:  http://knowledge.parcours-performance.com
 Description: Styles (print & screen) pour l'extension wp-help
 Version:     1.0
