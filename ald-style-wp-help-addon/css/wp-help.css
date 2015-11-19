@@ -1,0 +1,94 @@
+/****************************************
+* styles pour affichage de l'aide wp-help 
+* 
+****************************************/
+
+
+#cws-wp-help-listing {
+    background: #ffffff;
+    font-size: 110%;
+    width: 30%;
+}
+
+#cws-wp-help-document h3,
+#cws-wp-help-document h2,
+#cws-wp-help-listing h3 {
+    color: violet;
+    font-weight: 800;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#cws-wp-help-document {
+    max-width: 100%;
+    padding-left: 30%;
+	padding-top: 20px;
+    padding-bottom: 20px;
+	background: #ffffff;
+}
+
+#cws-wp-help-document p {
+    max-width: 700px;
+    font-size: 110%;
+}
+
+
+/*
+* source https://gist.github.com/purcebr/5807403
+*/
+
+/* Print Styles for wp_help */
+
+@media print {
+
+  /* WP Admin Elements */
+
+  #adminmenuwrap {
+    display:none;
+  }
+
+  #wpadminbar {
+    display:none;
+  }
+
+  #adminmenushadow {
+    display:none;
+  }
+
+  #adminmenuback {
+    display:none;
+  }
+
+  #wpfooter {
+    display:none;
+  }
+
+  /* WP Help Elements */
+
+  #cws-wp-help-listing {
+    display:none;
+  }
+
+  #print-help-document {
+    display:none;
+  }
+
+  #cws-wp-help-document, #cws-wp-help-settings {
+    padding:0 !important;
+    max-width:100%;
+  }
+  #cws-wp-help-document .post-edit-link {
+    display:none;
+  }
+
+  #wpcontent {
+    margin:0;
+  }
+
+
+  #icon-wp-help {
+    display: none;
+  }
+
+}
+
