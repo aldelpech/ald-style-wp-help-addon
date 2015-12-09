@@ -33,6 +33,18 @@
 }
 
 
+#cws-wp-help-listing ul a {
+	color: blue;
+    font-weight: 600;
+	font-variant: small-caps;
+}
+
+#cws-wp-help-listing ul ul a  {
+	color: #0073aa;
+	font-weight: normal;
+}
+
+
 /*
 * source https://gist.github.com/purcebr/5807403
 */
