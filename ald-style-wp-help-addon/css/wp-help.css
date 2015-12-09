@@ -10,14 +10,24 @@
     width: 30%;
 }
 
-#cws-wp-help-document h3,
-#cws-wp-help-document h2,
 #cws-wp-help-listing h3 {
     color: violet;
     font-weight: 800;
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
+#cws-wp-help-listing ul a {
+	color: blue;
+    font-weight: 600;
+	font-variant: small-caps;
+}
+
+#cws-wp-help-listing ul ul a  {
+	color: #0073aa;
+	font-weight: normal;
+}
+
 
 #cws-wp-help-document {
     max-width: 100%;
@@ -32,16 +42,38 @@
     font-size: 110%;
 }
 
-
-#cws-wp-help-listing ul a {
-	color: blue;
-    font-weight: 600;
+#cws-wp-help-document h2:first-of-type {
 	font-variant: small-caps;
+	color: blue;
 }
 
-#cws-wp-help-listing ul ul a  {
-	color: #0073aa;
-	font-weight: normal;
+#cws-wp-help-document h2 {
+	color: violet;
+	font-variant: small-caps;
+	font-weight: 800;
+	margin-bottom: 15px;
+    margin-top: 15px;	
+	font-size: 170%;
+}
+
+#cws-wp-help-document h3 {
+	color: blueviolet;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+#cws-wp-help-document h4 {
+	color: blueviolet;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-size: 110%;
+}
+
+#cws-wp-help-document img {
+    border: 2px solid blueviolet;
+    padding: 5px;
 }
 
 
