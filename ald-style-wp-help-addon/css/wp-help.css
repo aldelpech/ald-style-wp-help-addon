@@ -7,7 +7,7 @@
 #cws-wp-help-listing {
     background: #ffffff;
     font-size: 110%;
-    width: 30%;
+    max-width: 30%;
 }
 
 #cws-wp-help-listing h3 {
@@ -30,8 +30,8 @@
 
 
 #cws-wp-help-document {
-    max-width: 100%;
-    padding-left: 30%;
+    max-width: 850px;
+    padding-left: 27%;
 	padding-top: 20px;
     padding-bottom: 20px;
 	background: #ffffff;
